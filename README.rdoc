@@ -1,0 +1,12 @@
+= RedmineClient
+
+== Installation:
+
+  gem install ruby-redmine_client
+
+== Usage:
+
+  redmine --help
+
+This project rocks and uses MIT-LICENSE.
+

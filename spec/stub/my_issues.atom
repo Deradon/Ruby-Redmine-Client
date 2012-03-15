@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Redmine: Tickets</title>
+  <link rel="self" href="http://redmine.werbeboten.de/issues.atom?assigned_to_id=me&amp;amp;key=6c6429a7209135b8c5f2ce7290397f0c40c683af&amp;amp;set_filter=1&amp;amp;sort=priority%3Adesc%2Cupdated_on%3Adesc"/>
+  <link rel="alternate" href="http://redmine.werbeboten.de/issues?assigned_to_id=me&amp;amp;set_filter=1&amp;amp;sort=priority%3Adesc%2Cupdated_on%3Adesc"/>
+  <id>http://redmine.werbeboten.de/</id>
+  <updated>2012-03-12T10:53:08+01:00</updated>
+  <author>
+    <name>Redmine</name>
+  </author>
+  <generator uri="http://www.redmine.org/">
+Redmine  </generator>
+  <entry>
+    <title>1.2 Content Manager for Facebook - Fehler #338 (Neu): Es ist ein Fehler in 'parse_signed_request'...</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/338"/>
+    <id>http://redmine.werbeboten.de/issues/338</id>
+    <updated>2012-03-12T10:53:08+01:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;p&gt;Tab: &lt;a class="external" href="http://www.facebook.com/pages/load/?sk=app_282527741775770&amp;#38;app_data="&gt;http://www.facebook.com/pages/load/?sk=app_282527741775770&amp;#38;app_data=&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;pre&gt;
+--- !ruby/object:Facebook
+app_id: "282527741775770"
+data: {}
+
+error: true
+oauth: !ruby/object:Koala::Facebook::OAuth
+  app_id: "282527741775770"
+  app_secret:
+  oauth_callback_url:
+signed_request: haT1aTdoBEX8b1m_1PR8trR-OPLeIneoDVbl_m1bLRQ.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzMzE1NDI4MDAsImlzc3VlZF9hdCI6MTMzMTUzNjg5Niwib2F1dGhfdG9rZW4iOiJBQUFFQTlSMndENW9CQUs2dEhaQm5kOG5aQ3RDUXVlZ01oZ3RtWHdaQUlDZnZsYWtCbkdWcHBOZVpDeHBCZzFEUW04WkJLV0JDWHVDYjB1TGJFOGhHRXg0UnBKZlpDTENaQWtJSVdWM1NWM0JoUVpEWkQiLCJwYWdlIjp7ImlkIjoiMTM0MjM2NzQ5OTM3OTQwIiwibGlrZWQiOnRydWUsImFkbWluIjp0cnVlfSwidXNlciI6eyJjb3VudHJ5IjoiZGUiLCJsb2NhbGUiOiJlbl9VUyIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI3MzQ3OTAyMTIifQ
+visit: !ruby/ActiveRecord:Session
+  attributes:
+    id:
+    session_id: e73062207f4f79b493b8949fdd604b9e
+    data:
+    created_at:
+    updated_at:
+&lt;/pre&gt;    </content>
+  </entry>
+  <entry>
+    <title>1.2 Content Manager for Facebook - Fehler #337 (Neu): Es ist ein Fehler in 'get_connections' im '...</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/337"/>
+    <id>http://redmine.werbeboten.de/issues/337</id>
+    <updated>2012-03-12T10:51:47+01:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;p&gt;Tab: &lt;a class="external" href="http://www.facebook.com/pages/load/116853554995627?sk=app_103277853096674&amp;#38;app_data="&gt;http://www.facebook.com/pages/load/116853554995627?sk=app_103277853096674&amp;#38;app_data=&lt;/a&gt;&lt;br /&gt;User: &lt;a class="external" href="http://www.facebook.com/profile.php?id=734790212"&gt;http://www.facebook.com/profile.php?id=734790212&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;pre&gt;
+--- !ruby/object:Facebook
+app_id: "103277853096674"
+data:
+  algorithm: HMAC-SHA256
+  expires: 1331323200
+  issued_at: 1331318825
+  oauth_token: AAABd7jZBZCOuIBAEU8setS2mAUg784EUlBZAJWe7My9yHwfqWZCBUda0wZC7wekZBEKA7PA7xKb8ZCZBUS2paJ2bp7ZCaegTaX2VTelj5AEihCAZDZD
+  page:
+    id: "116853554995627"
+    liked: true
+    admin: true
+  user:
+    country: de
+    locale: en_US
+    age:
+      min: 21
+  user_id: "734790212"
+  signed_request: ErbP552f3Jk7o5G57MASp97QA6ZnOMm3hJ2dbBu4Z1w.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzMzEzMjMyMDAsImlzc3VlZF9hdCI6MTMzMTMxODgyNSwib2F1dGhfdG9rZW4iOiJBQUFCZDdqWkJaQ091SUJBRVU4c2V0UzJtQVVnNzg0RVVsQlpBSldlN015OXlId2ZxV1pDQlVkYTB3WkM3d2VrWkJFS0E3UEE3eEtiOFpDWkJVUzJwYUoyYnA3WkNhZWdUYVgyVlRlbGo1QUVpaENBWkRaRCIsInBhZ2UiOnsiaWQiOiIxMTY4NTM1NTQ5OTU2MjciLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJkZSIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjczNDc5MDIxMiJ9
+  app_data:
+error: false
+graph: !ruby/object:Koala::Facebook::API
+  access_token: AAABd7jZBZCOuIBAEU8setS2mAUg784EUlBZAJWe7My9yHwfqWZCBUda0wZC7wekZBEKA7PA7xKb8ZCZBUS2paJ2bp7ZCaegTaX2VTelj5AEihCAZDZD
+incoming_data:
+oauth_user: AAABd7jZBZCOuIBAEU8setS2mAUg784EUlBZAJWe7My9yHwfqWZCBUda0wZC7wekZBEKA7PA7xKb8ZCZBUS2paJ2bp7ZCaegTaX2VTelj5AEihCAZDZD
+signed_request: ErbP552f3Jk7o5G57MASp97QA6ZnOMm3hJ2dbBu4Z1w.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzMzEzMjMyMDAsImlzc3VlZF9hdCI6MTMzMTMxODgyNSwib2F1dGhfdG9rZW4iOiJBQUFCZDdqWkJaQ091SUJBRVU4c2V0UzJtQVVnNzg0RVVsQlpBSldlN015OXlId2ZxV1pDQlVkYTB3WkM3d2VrWkJFS0E3UEE3eEtiOFpDWkJVUzJwYUoyYnA3WkNhZWdUYVgyVlRlbGo1QUVpaENBWkRaRCIsInBhZ2UiOnsiaWQiOiIxMTY4NTM1NTQ5OTU2MjciLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJkZSIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjczNDc5MDIxMiJ9
+visit: !ruby/ActiveRecord:Session
+  attributes:
+    id: 6
+    session_id: b8cbe0ec87418a912255ee650a8fce84
+    data: |
+      ---
+      :app_id: "103277853096674"
+      :incoming_data:
+      :fb:
+        algorithm: HMAC-SHA256
+        expires: 1331323200
+        issued_at: 1331318825
+        oauth_token: AAABd7jZBZCOuIBAEU8setS2mAUg784EUlBZAJWe7My9yHwfqWZCBUda0wZC7wekZBEKA7PA7xKb8ZCZBUS2paJ2bp7ZCaegTaX2VTelj5AEihCAZDZD
+        page:
+          id: "116853554995627"
+          liked: true
+          admin: true
+        user:
+          country: de
+          locale: en_US
+          age:
+            min: 21
+        user_id: "734790212"
+        signed_request: ErbP552f3Jk7o5G57MASp97QA6ZnOMm3hJ2dbBu4Z1w.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzMzEzMjMyMDAsImlzc3VlZF9hdCI6MTMzMTMxODgyNSwib2F1dGhfdG9rZW4iOiJBQUFCZDdqWkJaQ091SUJBRVU4c2V0UzJtQVVnNzg0RVVsQlpBSldlN015OXlId2ZxV1pDQlVkYTB3WkM3d2VrWkJFS0E3UEE3eEtiOFpDWkJVUzJwYUoyYnA3WkNhZWdUYVgyVlRlbGo1QUVpaENBWkRaRCIsInBhZ2UiOnsiaWQiOiIxMTY4NTM1NTQ5OTU2MjciLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJkZSIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjczNDc5MDIxMiJ9
+        app_data:
+      :default_widget: 0
+      :locale: :en
+
+    created_at: 2012-01-26 16:10:13.404206 Z
+    updated_at: 2012-03-09 18:47:23.150634 Z
+&lt;/pre&gt;    </content>
+  </entry>
+  <entry>
+    <title>1.2 Content Manager for Facebook - Fehler #321 (Neu): Fix Errors in Wiki</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/321"/>
+    <id>http://redmine.werbeboten.de/issues/321</id>
+    <updated>2012-02-27T21:24:42+01:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;p&gt;Aufgetretene Fehler:&lt;/p&gt;
+
+
+	&lt;ul&gt;
+	&lt;li&gt;PDF-Export von Wiki-Seiten fehlerhaft&lt;/li&gt;
+		&lt;li&gt;Fehlende Assets (=Dokumente)&lt;/li&gt;
+	&lt;/ul&gt;    </content>
+  </entry>
+  <entry>
+    <title>1.2 Content Manager for Facebook - Entwicklung #320 (In Bearbeitung): CMF: Technische Planung</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/320"/>
+    <id>http://redmine.werbeboten.de/issues/320</id>
+    <updated>2012-02-27T20:03:42+01:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;a name="TODO"&gt;&lt;/a&gt;
+&lt;h2 &gt;TODO&lt;a href="#TODO" class="wiki-anchor"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+
+
+	&lt;ul&gt;
+	&lt;li&gt;Tracker-Kategorie: Planung(?), Entwicklungs passt nicht&lt;/li&gt;
+		&lt;li&gt;Ticket-Content&lt;/li&gt;
+	&lt;/ul&gt;
+
+
+	&lt;a name="Ergebnisse"&gt;&lt;/a&gt;
+&lt;h2 &gt;Ergebnisse&lt;a href="#Ergebnisse" class="wiki-anchor"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+
+
+	&lt;ul&gt;
+	&lt;li&gt;&lt;a href="http://redmine.werbeboten.de/projects/contentmanagerforfacebook/wiki/Entwicklung" class="wiki-page"&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;    </content>
+  </entry>
+  <entry>
+    <title>CMF 1.1 - Fehler #313 (In Bearbeitung): Image vorlage asset problem. </title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/313"/>
+    <id>http://redmine.werbeboten.de/issues/313</id>
+    <updated>2012-02-08T10:38:34+01:00</updated>
+    <author>
+      <name>Johannes G&#246;tze</name>
+      <email>jg@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;p&gt;vorlage wurde von user &#252;berschrieben. &lt;br /&gt;danach &#228;nderung der vorlage nicht mehr m&#246;glich.&lt;/p&gt;    </content>
+  </entry>
+  <entry>
+    <title>CMF 1.x - Fehler #290 (Neu): Inkonsistenz: Nutzungsbedingungen &lt;--&gt; Verhalten</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/290"/>
+    <id>http://redmine.werbeboten.de/issues/290</id>
+    <updated>2012-02-03T10:35:59+01:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;a name="Nutzungsbedingungen"&gt;&lt;/a&gt;
+&lt;h3 &gt;Nutzungsbedingungen&lt;a href="#Nutzungsbedingungen" class="wiki-anchor"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+
+
+	&lt;p&gt;&lt;em&gt;Der Vertrag zwischen der Anbieterin und dem Nutzer wird auf die Dauer von einem Monat bei Einzelpaketen wie "Branding Tab" und "Promotion Tab" und bei den Paketen "Branding Set" und "Promotion Set" auf eine Dauer von 12 Monaten geschlossen. Er verl&#228;ngert sich automatisch um weitere drei Monate, wenn der Nutzer nicht fristgem&#228;&#223; k&#252;ndigt.&lt;/em&gt;&lt;/p&gt;
+
+
+	&lt;a name="Aktuelles-Verhalten"&gt;&lt;/a&gt;
+&lt;h3 &gt;Aktuelles Verhalten&lt;a href="#Aktuelles-Verhalten" class="wiki-anchor"&gt;&amp;para;&lt;/a&gt;&lt;/h3&gt;
+
+
+	&lt;p&gt;Der Vertrag verl&#228;ngert sich um die im Paket definierte Mindestlaufzeit.&lt;/p&gt;    </content>
+  </entry>
+  <entry>
+    <title>CMF 1.x - Feature #246 (Neu): Iconv deprecated</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/246"/>
+    <id>http://redmine.werbeboten.de/issues/246</id>
+    <updated>2012-01-26T10:46:08+01:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;p&gt;Iconv is deprecated with ruby 1.9.3.&lt;br /&gt;Use String#encode instead.&lt;/p&gt;
+
+
+	&lt;p&gt;Example:&lt;br /&gt;&lt;a class="external" href="https://github.com/eagleas/maruku/commit/0dd3591f281e5b5e464fd98608c21f6737a05859"&gt;https://github.com/eagleas/maruku/commit/0dd3591f281e5b5e464fd98608c21f6737a05859&lt;/a&gt;&lt;/p&gt;    </content>
+  </entry>
+  <entry>
+    <title>Deal App  - Fehler #57 (Neu): Railtie::Engine Erweiterung nur m&#246;glich, wenn ClassCaching aktiviert</title>
+    <link rel="alternate" href="http://redmine.werbeboten.de/issues/57"/>
+    <id>http://redmine.werbeboten.de/issues/57</id>
+    <updated>2011-09-08T17:27:42+02:00</updated>
+    <author>
+      <name>Patrick Helm</name>
+      <email>ph@werbeboten.de</email>
+    </author>
+    <content type="html">
+&lt;p&gt;Die Erweiterung der Engine in der Host-App, ist nur m&#246;glich, wenn ClassCaching:&lt;br /&gt;&lt;pre&gt;
+config.cache_classes = true
+&lt;/pre&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;aktiviert ist.&lt;/p&gt;
+
+
+	&lt;p&gt;Dies ist im Production-Mode kein Problem, da es dort standardm&#228;&#223;ig aktiviert ist.&lt;br /&gt;Im Development jedoch nervig, da f&#252;r jede Code-&#196;nderung der Server neugestartet werden muss.&lt;/p&gt;
+
+
+	&lt;p&gt;Es sollte nach einer L&#246;sung f&#252;r das Problem gesucht werden.&lt;/p&gt;    </content>
+  </entry>
+</feed>
+
