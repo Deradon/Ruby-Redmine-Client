@@ -18,6 +18,14 @@ optparse = OptionParser.new do|opts|
     options[:key] = key
   end
 
+  opts.on( '-do', '--domain domain', 'Your domain used.' ) do |domain|
+    options[:domain] = domain
+  end
+
+  opts.on( '-p', '--protocol PROTOCOL', 'Your protocol used.' ) do |protocol|
+    options[:protocol] = protocol
+  end
+
   options[:config] = File.join(Dir.home, ".redmine", "config.yml")
   opts.on( '-c', '--config FILE', 'Path to your config-file. (Default: ~/.redmine/config.yml)' ) do |config|
     options[:config] = config

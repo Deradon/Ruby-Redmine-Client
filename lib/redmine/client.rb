@@ -20,10 +20,15 @@ module Redmine
       @key      = options[:key]
       @domain   = options[:domain]
       @protocol = options[:protocol]
+
+      debug "[CLIENT]" do
+        puts options
+      end
     end
 
     def my_issues(limit = nil)
       projects = {}
+
       doc.xpath('//atom:entry', NAMESPACE ).each do |e|
         id = e.xpath('.//atom:id', NAMESPACE).first.content.split("/").last
         raw_title = e.xpath('.//atom:title', NAMESPACE).first.content
@@ -32,11 +37,16 @@ module Redmine
         project = match[1]
         title   = match[2]
 
+
         projects[project] ||= []
         projects[project] << {
           :id => id,
           :title => title
         }
+      end
+
+      debug "[URL]" do
+        puts issues_url
       end
 
       return projects
@@ -56,7 +66,7 @@ module Redmine
     end
 
     def issues_url
-      "#{base_url}issues.atom?assigned_to_id=me&#{key}=&set_filter=1&sort=priority%3Adesc%2Cupdated_on%3Adesc"
+      "#{base_url}issues.atom?assigned_to_id=me&key=#{key}&set_filter=1&sort=priority%3Adesc%2Cupdated_on%3Adesc"
     end
   end
 end

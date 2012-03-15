@@ -15,9 +15,11 @@ module Redmine
     def initialize(options = {})
       options = {
         :debug    => false,
+        :domain   => nil,
         :key      => nil,
         :config   => File.join(DEFAULT_PATH, DEFAULT_FILE),
-        :path     => nil
+        :path     => nil,
+        :protocol => "http"
       }.merge(options)
 
       @debug        = options[:debug]
@@ -26,14 +28,24 @@ module Redmine
       config        = read_config(@config_path)
 
       @config = {
-        :key  => options[:key] || config[:key],
-        :path => DEFAULT_PATH  || config[:path]
+        :key      => options[:key] || config[:key],
+        :domain   => options[:domain] || config[:domain],
+        :protocol => options[:protocol] || config[:protocol],
+        :path     => DEFAULT_PATH  || config[:path]
       }
       update if @config != config
     end
 
     def key
       @config[:key]
+    end
+
+    def domain
+      @config[:domain]
+    end
+
+    def protocol
+      @config[:protocol]
     end
 
     # Path where to store data
@@ -48,6 +60,15 @@ module Redmine
     # Write current config to disc
     def update
       update_config(@config, @config_path)
+    end
+
+    def to_hash
+      {
+        :debug    => debug?,
+        :key      => key,
+        :domain   => domain,
+        :protocol => protocol
+      }
     end
 
 
